@@ -1,0 +1,22 @@
+/* Estilos comuns para o componente */
+.responsive-layout {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Estilos para telas maiores (por exemplo, desktops) */
+  @media screen and (min-width: 768px) {
+    .responsive-layout {
+      padding: 40px;
+    }
+  }
+  
+  /* Estilos para telas ainda maiores (por exemplo, telas de largura superior a 1200px) */
+  @media screen and (min-width: 1200px) {
+    .responsive-layout {
+      padding: 60px;
+    }
+  }
+  
